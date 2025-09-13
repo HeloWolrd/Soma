@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Soma +</title>
+    <link rel="stylesheet" href="style_form_trilha.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+    </style>
+</head>
+
+<body>
+    <header class="topo">
+        <a href="index.html"><img src="icones/logo_soma.png" alt="Logo da plataforma" class="logo" /></a>
+    </header>
+
+    <h1 >Qual área tem mais interesse em programação?</h2>
+
+    <form class="form" id="programmingForm">
+        <!-- Front-end Option -->
+        <div class="option-group">
+            <div class="radio-container">
+                <input type="radio" id="frontend" name="area" value="frontend" class="radio-input">
+                <label for="frontend" class="radio-label">
+                    <span class="radio-custom"></span>
+                    <span class="option-title">Front-end</span>
+                </label>
+            </div>
+            <div class="image-container">
+                <img src="imagens/Website designer-pana.png"
+                    alt="Ilustração de uma desenvolvedora front-end trabalhando em um computador com elementos de UI e design"
+                    class="option-image">
+            </div>
+        </div>
+
+        <!-- Back-end Option -->
+        <div class="option-group">
+            <div class="radio-container">
+                <input type="radio" id="backend" name="area" value="backend" class="radio-input">
+                <label for="backend" class="radio-label">
+                    <span class="radio-custom"></span>
+                    <span class="option-title">Back-end</span>
+                </label>
+            </div>
+            <div class="image-container">
+                <img src="imagens/Version control-pana 1 (1).png"
+                    alt="Ilustração de uma desenvolvedora back-end sentada no chão com laptop e terminais de código"
+                    class="option-image">
+            </div>
+        </div>
+
+        <!-- Game Development Option -->
+        <div class="option-group">
+            <div class="radio-container">
+                <input type="radio" id="gamedev" name="area" value="gamedev" class="radio-input">
+                <label for="gamedev" class="radio-label">
+                    <span class="radio-custom"></span>
+                    <span class="option-title">Desenvolvimento de Jogos</span>
+                </label>
+            </div>
+            <div class="image-container">
+                <img src="imagens/Online games .png"
+                    alt="Ilustração de uma desenvolvedora de jogos trabalhando com elementos de game design"
+                    class="option-image">
+            </div>
+        </div>
+
+        <!-- Cybersecurity Option -->
+        <div class="option-group">
+            <div class="radio-container">
+                <input type="radio" id="cybersecurity" name="area" value="cybersecurity" class="radio-input">
+                <label for="cybersecurity" class="radio-label">
+                    <span class="radio-custom"></span>
+                    <span class="option-title">Cybersegurança</span>
+                </label>
+            </div>
+            <div class="image-container">
+                <img src="imagens/Hacker-pana 1.png"
+                    alt="Ilustração de um especialista em cybersegurança com capuz trabalhando com segurança digital"
+                    class="option-image">
+            </div>
+        </div>
+
+        <!-- Fullstack Option -->
+        <div class="option-group">
+            <div class="radio-container">
+                <input type="radio" id="fullstack" name="area" value="fullstack" class="radio-input">
+                <label for="fullstack" class="radio-label">
+                    <span class="radio-custom"></span>
+                    <span class="option-title">Fullstack</span>
+                </label>
+            </div>
+            <div class="image-container">
+                <img src="imagens/Coding-pana 1.png"
+                    alt="Ilustração de uma desenvolvedora fullstack trabalhando com múltiplas tecnologias"
+                    class="option-image">
+            </div>
+        </div>
+
+        <div class="motivational-message">
+            <p>Não se preocupe poderá sempre escolher outra carreira! :)</p>
+        </div>
+
+        <button type="submit">Próximo</button>
+    </form>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
